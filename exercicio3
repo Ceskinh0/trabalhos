@@ -5,7 +5,7 @@ int main()
 {
     /*Implemente um programa que calcule os aumentos de um ordenado
     para o corrente ano. Se o ordenado for > 1000
-    deve ser aumentado em 5%, se não deve ser aumentado em 7%*/
+    deve ser aumentado em 5%, se nÃ£o deve ser aumentado em 7%*/
 
     double salario;
 
