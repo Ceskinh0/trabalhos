@@ -12,7 +12,7 @@ printf("\t\t\t1 - bebidas\n");
 printf("\t\t\t2 - pratos\n");
 printf("\t\t\t9 - sair\n");
 
-printf("\t\t\tdigite sua opçao:");
+printf("\t\t\tdigite sua opÃ§ao:");
 scanf("%d", &menu);
 
 switch(menu){
