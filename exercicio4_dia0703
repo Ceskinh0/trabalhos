@@ -22,7 +22,7 @@ int main()
     switch(sexo){
             case 'm':
             case 'M':
-                imposto = salario * 0.05;
+                imposto = salario * 0.15;
                 break;
             case 'f':
             case 'F':
