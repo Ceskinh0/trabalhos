@@ -6,7 +6,7 @@ int main()
     /*Escreva um programa que calcule o imposto
     pago por mulheres e por homens, sabendo-se que
     mulheres pagam 10% de imposto
-    sobre o sal·rio e homens
+    sobre o sal√°rio e homens
     pagam mais 5% do que as mulheres*/
 
     double salario, imposto;
