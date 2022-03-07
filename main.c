@@ -3,12 +3,9 @@
 
 int main()
 {
-   int valor;
-   printf("Digite o valor: \n");
-   scanf("%d", &valor);
-
-   for(int i = 1; i <= 10; i++){
-        printf("%2d X %2d = %3d \n", valor, i, valor * i);
+   for(int i = 0; i < 10; i++){
+    printf("%d", i);
    }
+   printf("\n");
    return 0;
 }
