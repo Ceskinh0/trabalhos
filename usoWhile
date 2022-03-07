@@ -8,7 +8,7 @@ int main()
     while(soma < 1000){
         printf("Digite o valor para soma: \n");
         scanf("%d", &numero);
-        //forçar parada com numero negativo
+        //forÃ§ar parada com numero negativo
         if(numero < 0) break;
         soma += numero;
     }
