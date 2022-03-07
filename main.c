@@ -1,0 +1,69 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int menu;
+int prat;
+int beb;
+
+printf("\t\t\tmenu principal\n");
+printf("\t\t\t1 - bebidas\n");
+printf("\t\t\t2 - pratos\n");
+printf("\t\t\t9 - sair\n");
+
+printf("\t\t\tdigite sua opçao:");
+scanf("%d", &menu);
+
+switch(menu){
+    case 1:
+        printf("\t\t\tVOce esta no menu de bebidas \n");
+        printf("\t\t\t1 - skol\n");
+        printf("\t\t\t2 - brhama\n");
+        printf("\t\t\t9 - retornar\n");
+        printf("\t\t\tescolha a bebida:");
+        scanf("%d", &beb);
+            switch(beb){
+                case 1:
+                    printf("\t\t\tVoce escolheu skol pague RS6,50 \n");
+                    break;
+                case 2:
+                    printf("\t\t\tVoce escolheu Brhama pague RS5,50 \n");
+                    break;
+                case 9:
+                    printf("\t\t\tRetornando para Menu Principal");
+                    break;
+                default:
+                    printf("\t\t\tOpcao Invalida!\n");
+            }
+        break;
+    case 2:
+        printf("\t\t\tVoce esta no menu de pratos\n");
+        printf("\t\t\t1 - lasanha\n");
+        printf("\t\t\t2 - Picanha\n");
+        printf("\t\t\t9 - retornar\n");
+        printf("\t\t\tescolha seu prato:");
+        scanf("%d", &prat);
+            switch(prat){
+                case 1:
+                    printf("\t\t\tVoce escolheu a lasanha pague RS16,75 \n");
+                    break;
+                case 2:
+                    printf("\t\t\tVoce escolheu picanha pague RS20,65\n");
+                    break;
+                case 9:
+                    printf("\t\t\tRetornando para Menu Principal");
+                    break;
+                default:
+                    printf("\t\t\tOpcao Invalida!\n");
+        }
+        break;
+    case 9:
+        printf("\t\t\tFim do programa!");
+        break;
+    default:
+        printf("\t\t\topcao invalida\n");
+        break;
+}
+
+}
