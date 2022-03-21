@@ -3,11 +3,11 @@
 
 int main()
 {
-    //vetor de 10 posiçoes do tipo double
+    //vetor de 10 posiÃ§oes do tipo double
     double notas[10];
     //alimentar com 10 valores (usuario)
     for(int i=0; i<10; i++){
-        printf("Digite a nota:  \n");
+        printf("Digite a %d nota:  \n", i+1);
         scanf("%lf", &notas[i]);
     }
     //media das notas
