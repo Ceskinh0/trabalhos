@@ -11,6 +11,6 @@ int dividir(int x, int y){
     if(y){
         return(x / y);
     }else{
-        printf("Impossivel Calcular \n");
+        printf("Erro: Impossível dividir um inteiro por ZERO \n");
     }
 }
