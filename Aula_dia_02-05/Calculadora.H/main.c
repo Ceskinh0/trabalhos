@@ -9,13 +9,10 @@ int main()
     int opc;
     do{
       opc = montarMenu();
-      printf("Opcao Escolhida: ");
       if(opc == 5) break;
       int a, b;
-      printf("Digite o primeiro valor: \n");
-      scanf("%d", &a);
-      printf("Digite o segundo valor: \n");
-      scanf("%d", &b);
+      a = lerDado();
+      b = lerDado();
       switch(opc){
         case 1:
             printf("Soma: %d \n", somar(a, b));
@@ -41,7 +38,7 @@ int montarMenu(){
     system("cls");
     int opcao;
     int ch;
-    //while((ch = getchar()) != '\n' && ch != E0F) continue;
+    //while((ch = getchar()) != '\n' && ch != E0F) continue; <-- linux
     printf("Menu Principal \n");
     printf("1. somar...: \n");
     printf("2. subtrair...: \n");
@@ -49,18 +46,12 @@ int montarMenu(){
     printf("4. dividir...: \n");
     printf("5. sair...: \n");
     scanf("%d", &opcao);
-
+  return opcao;
 }
 
 int lerDado(){
-
-
-
-
-
-
-
-
-
-
+    int valor;
+    printf("Digite um valor: \n");
+    scanf("%d", &valor);
+  return valor;
 }
