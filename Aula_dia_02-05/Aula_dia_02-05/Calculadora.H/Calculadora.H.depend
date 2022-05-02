@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1651496546 source:c:\users\aluno\desktop\15.03\aula_dia_02-05\calculadora.h\calculadora.h.c
+	<stdio.h>
+	<stdlib.h>
+
+1651493503 source:c:\users\aluno\desktop\15.03\aula_dia_02-05\calculadora.h\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Calculadora.H"
+
+1651492831 c:\users\aluno\desktop\15.03\aula_dia_02-05\calculadora.h\calculadora.h
+

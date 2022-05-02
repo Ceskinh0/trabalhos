@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1651498260 source:c:\users\aluno\desktop\15.03\exemplo1-dia02_05\main.c
+	<stdio.h>
+	<stdlib.h>
+	"vetor.H"
+
+1651498371 c:\users\aluno\desktop\15.03\exemplo1-dia02_05\vetor.h
+
+1651498395 source:c:\users\aluno\desktop\15.03\exemplo1-dia02_05\vetor.c
+	<stdio.h>
+	<stdlib.h>
+
