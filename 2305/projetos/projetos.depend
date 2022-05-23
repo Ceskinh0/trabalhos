@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1653312568 source:c:\users\aluno\desktop\aula 0905\projetos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"aluno.h"
+
+1653312568 c:\users\aluno\desktop\aula 0905\projetos\aluno.h
+
+1653312647 source:c:\users\aluno\desktop\aula 0905\projetos\aluno.c
+	<stdio.h>
+	<stdlib.h>
+	"aluno.h"
+
