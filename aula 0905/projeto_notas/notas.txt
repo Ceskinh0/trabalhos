@@ -1,0 +1,1 @@
+aluno: maria 	 nota1: 10.00 	 nota2: 10.00 	 Media: 10.00 
