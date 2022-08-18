@@ -1,0 +1,3 @@
+F:/trabalhos/3° semestre/ED/programas/aula 2/untitled/cmake-build-debug/CMakeFiles/untitled.dir
+F:/trabalhos/3° semestre/ED/programas/aula 2/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/trabalhos/3° semestre/ED/programas/aula 2/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
